@@ -84,4 +84,11 @@ public class VirtualPet {
 
 	}
 
+	@Override
+	public String toString() {
+		return "VirtualPet [currentHunger=" + currentHunger + ", currentThirst=" + currentThirst + ", currentWaste="
+				+ currentWaste + ", currentBoredom=" + currentBoredom + ", currentSickness=" + currentSickness
+				+ ", currentTiredness=" + currentTiredness + "]";
+	}
+
 }
