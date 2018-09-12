@@ -78,9 +78,9 @@ public class VirtualPet {
 	}
 
 	public void tick() {
-		currentBoredom += 10;
-		currentHunger += 10;
-		currentTiredness += 10;
+		currentBoredom += 5;
+		currentHunger += 5;
+		currentTiredness += 5;
 
 	}
 

@@ -80,6 +80,7 @@ public class VirtualPetApp {
 					System.exit(0);
 
 				}
+				myPet.tick();
 
 				System.out.println("Press 1 to feed " + nameEntered);
 				System.out.println("Press 2 to give " + nameEntered + " water");
@@ -94,4 +95,5 @@ public class VirtualPetApp {
 			}
 		}
 	}
+
 }
